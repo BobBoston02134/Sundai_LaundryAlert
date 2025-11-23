@@ -220,3 +220,7 @@ override.tf.json
 *_override.tf.json
 .terraformrc
 terraform.rc
+
+# Lambda build artifacts
+terraform_code/lambdas/*.zip
+**/__pycache__/
